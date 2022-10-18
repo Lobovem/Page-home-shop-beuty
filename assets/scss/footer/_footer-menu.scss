@@ -1,0 +1,49 @@
+.footer {
+  background-color: $color-white;
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-top: 60px;
+    padding-bottom: 50px;
+
+    gap: 30px;
+  }
+}
+
+.footer-menu {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-width: 255px;
+
+  &__title {
+    max-width: 100px;
+    margin-bottom: 26px;
+
+    font-size: $font-size-16;
+    font-weight: $font-weight-500;
+    line-height: 22px;
+  }
+
+  &__list {
+    width: 100%;
+    padding-top: 25px;
+
+    list-style: none;
+
+    border-top: 1px solid $color-grey;
+  }
+
+  &__link {
+    padding: 5px 10px 5px 0;
+
+    color: $color-light-grey;
+
+    font-size: $font-size-12;
+    line-height: 28px;
+  }
+}

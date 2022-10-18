@@ -1,0 +1,19 @@
+.footer-feedback {
+  border-top: 1px solid $color-grey;
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 37px;
+    padding-bottom: 37px;
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: left;
+
+  gap: 20px;
+}

@@ -1,0 +1,26 @@
+.footer-copyright {
+  background-color: $color-grey;
+}
+
+.footer-copyright__container {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  gap: 50px;
+}
+
+.footer-copyright__text {
+  padding: 10px 0;
+
+  color: $color-light-grey;
+
+  font-size: $font-size-12;
+  line-height: 14px;
+}
+
+.footer-copyright__text--position {
+  padding-left: 10px;
+}

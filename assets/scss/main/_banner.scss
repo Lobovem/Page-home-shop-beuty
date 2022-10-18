@@ -1,0 +1,39 @@
+.banner {
+  min-height: 604px;
+  margin-bottom: 80px;
+
+  background-color: $color-pink;
+  background-image: url(../img/hero.min.png);
+  background-repeat: no-repeat;
+  background-position: 80% 50%;
+  background-size: contain;
+
+  &__text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 308px;
+    min-height: 604px;
+    padding: 20px 0;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+
+    color: $color-white;
+
+    font-size: $font-size-48;
+    font-weight: $font-weight-700;
+    line-height: 56px;
+  }
+
+  &__description {
+    margin-bottom: 44px;
+
+    color: $color-white;
+
+    line-height: 20px;
+  }
+}

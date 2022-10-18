@@ -1,0 +1,27 @@
+.header-main {
+  background-color: $color-white;
+}
+
+.header-main__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 18px 20px;
+}
+
+.feedback {
+  display: flex;
+  align-items: center;
+
+  gap: 0 30px;
+
+  &__phone {
+    padding: 10px;
+
+    color: $color-black;
+
+    font-size: $font-size-16;
+    line-height: 19px;
+  }
+}

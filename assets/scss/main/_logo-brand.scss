@@ -1,0 +1,22 @@
+.logo-brand {
+  margin-bottom: 80px;
+  &__container {
+    display: grid;
+
+    grid-auto-rows: minmax(120px, auto);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid $color-grey;
+    background-color: $color-white;
+  }
+
+  &__link {
+    padding: 20px;
+  }
+}

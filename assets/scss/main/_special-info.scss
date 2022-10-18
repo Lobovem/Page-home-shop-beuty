@@ -1,0 +1,62 @@
+.special-info {
+  margin-bottom: 100px;
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding-top: 20px;
+
+    gap: 20px;
+  }
+}
+
+.benefits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 540px;
+  padding: 35px 45px 32px 40px;
+
+  background-color: $color-pink;
+
+  gap: 20px;
+
+  &__email {
+    width: 225px;
+    height: 35px;
+    padding-left: 25px;
+
+    border: none;
+    border-radius: 30px;
+    outline: none;
+  }
+
+  &__email::placeholder {
+    color: #c4c4c4;
+
+    line-height: 16px;
+  }
+
+  &__title {
+    margin-bottom: 25px;
+
+    color: $color-white;
+
+    font-size: $font-size-18;
+    font-weight: $font-weight-700;
+    line-height: 21px;
+  }
+
+
+  &__description {
+    max-width: 241px;
+    margin-bottom: 25px;
+
+    color: $color-white;
+
+    line-height: 20px;
+  }
+}

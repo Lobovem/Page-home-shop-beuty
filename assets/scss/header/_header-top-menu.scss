@@ -1,0 +1,23 @@
+.header-top-menu {
+  padding: 7px 0;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    list-style: none;
+
+    gap: 0 10px;
+  }
+
+  &__link {
+    display: block;
+
+    padding: 10px;
+
+    color: $color-dark-grey;
+
+    line-height: 16px;
+  }
+}
