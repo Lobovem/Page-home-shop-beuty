@@ -26,4 +26,9 @@
     font-size: $font-size-16;
     line-height: 19px;
   }
+
+  &__phone:hover {
+    font-weight: $font-weight-700;
+    transition: 0.2s;
+    }
 }

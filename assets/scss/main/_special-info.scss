@@ -36,6 +36,10 @@
     outline: none;
   }
 
+  &__email:hover {
+  outline: 2px solid darkgray;
+  }
+
   &__email::placeholder {
     color: #c4c4c4;
 

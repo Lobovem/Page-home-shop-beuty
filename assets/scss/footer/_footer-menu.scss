@@ -46,4 +46,9 @@ width: 100%;
     font-size: $font-size-12;
     line-height: 28px;
   }
+  &__link:hover {
+font-weight: $font-weight-500;
+color: $color-black;
+transition: 0.4s;
+}
 }
