@@ -1,17 +1,10 @@
-@import "normalize";
-@import "presets/variables";
-@import "presets/skins";
-@import "common/classes";
-@import "common/typography";
-@import "header/header-top-menu";
-@import "header/header-main";
-@import "header/header-botton-menu";
-@import "main/banner";
-@import "main/special-info";
-@import "main/logo-brand";
-@import "footer/footer-menu";
-@import "footer/footer-feedback";
-@import "footer/footer-copyright";
+@use "normalize";
+@use "presets";
+@use "common";
+@use "header";
+@use "main";
+@use "footer";
+@use "mixins";
 
 
 @media (min-width: 992px) and (max-width: 1200px) {
