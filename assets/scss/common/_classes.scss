@@ -42,6 +42,14 @@
     cursor: pointer;
   }
 
+  &--first:hover {
+    background-color: $color-pink;
+    color: $color-white;
+    transition: 0.5s;
+    
+  }
+  
+
   &--second {
     letter-spacing: 0.05em;
 
@@ -50,6 +58,14 @@
     background: $color-pink;
   }
 
+  &--second:hover {
+    background-color: pink;
+    color: $color-black;
+    transition: 0.5s;
+    font-weight: $font-weight-500;
+
+
+  }
   &--third {
     min-height: 35px;
 
@@ -57,6 +73,15 @@
     border: 2px solid $color-white;
     border-radius: 30px;
     background: $color-pink;
+  }
+
+  &--third:hover {
+    background-color: pink;
+    color: $color-black;
+    transition: 0.5s;
+    font-weight: $font-weight-500;
+
+
   }
 
   &--primary {
@@ -70,6 +95,14 @@
     border-radius: 30px;
     background: $color-pink;
   }
+
+  &--primary:hover {
+    background-color: $color-white;
+    border: 2px solid $color-pink;
+    color: $color-black;
+    transition: 0.4s;
+    font-weight: $font-weight-500;
+      }
 }
 
 .box-item {
