@@ -12,6 +12,11 @@
   padding: 18px 20px;
 }
 
+.logo__foto:hover {
+transition: 0.4s;
+transform: scale(1.1);
+}
+
 .feedback {
   display: flex;
   align-items: center;

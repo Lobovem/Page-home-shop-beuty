@@ -18,6 +18,11 @@
     background-color: $color-white;
   }
 
+  &__foto:hover {
+    transform: scale(1.1);
+transition: 0.4s;
+  }
+
   &__link {
     padding: 20px;
   }
