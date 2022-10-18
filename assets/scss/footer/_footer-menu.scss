@@ -3,7 +3,7 @@
 
   &__container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
     padding-top: 60px;
     padding-bottom: 50px;
@@ -17,8 +17,7 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: space-between;
-
-  min-width: 255px;
+  flex: 1;
 
   &__title {
     max-width: 100px;
@@ -30,11 +29,10 @@
   }
 
   &__list {
-    width: 100%;
     padding-top: 25px;
-
+    margin-bottom: auto;
     list-style: none;
-
+width: 100%;
     border-top: 1px solid $color-grey;
   }
 
