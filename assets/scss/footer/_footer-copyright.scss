@@ -23,6 +23,12 @@
   line-height: 14px;
 }
 
+.footer-copyright__text:hover {
+  font-weight: $font-weight-700;
+  color: $color-black;
+  transition: 0.4s;
+}
+
 .footer-copyright__text--position {
   padding-left: 10px;
 }

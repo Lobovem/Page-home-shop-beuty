@@ -18,4 +18,9 @@
   justify-content: left;
 
   gap: 20px;
+
+  &__foto:hover {
+    transform: scale(1.15);
+    transition: 0.4s;
+  }
 }

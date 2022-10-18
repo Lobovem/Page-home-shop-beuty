@@ -122,6 +122,8 @@
     font-weight: $font-weight-700;
     line-height: 28px;
   }
+
+  
 }
 
 .item {
@@ -142,6 +144,11 @@ flex-grow: 1;
     margin-bottom: 14px;
   }
 
+  &__foto:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+  }
+
   &__title {
     margin-bottom: auto;
 
@@ -151,6 +158,11 @@ flex-grow: 1;
 
     line-height: 20px;
   }
+
+  &__title:hover {
+    font-weight: $font-weight-700;
+    transition: 0.3s;
+      }
 
   &__price {
     padding-top: 12px;
