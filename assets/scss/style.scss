@@ -74,8 +74,7 @@
   }
 
   .banner {
-    background-position: 20% 50%;
-    background-size: cover;
+    background-position: 95% 50%;
     min-height: 300px;
 
 
@@ -83,6 +82,10 @@
       max-width: 225px;
 
       text-shadow: 2px 2px 10px #f13c6e;
+    }
+    &__text {
+      min-height: 300px;
+      max-width: 250px;
     }
   }
 
@@ -136,12 +139,22 @@ flex-wrap: wrap;
   .benefits {
     flex-wrap: wrap;
     justify-content: space-around;
-
+    padding: 20px;
     width: 100%;
 
     gap: 20px;
   }
 
+  .benefits__wrap {
+display: flex;
+flex-direction: column;
+    align-items: center;
+
+  }
+
+  .benefits__description {
+    max-width: 360px;
+  }
   .logo-brand__container {
     grid-template-columns: 1fr;
   }
