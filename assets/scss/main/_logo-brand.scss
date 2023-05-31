@@ -2,6 +2,7 @@
 
 .logo-brand {
   margin-bottom: 80px;
+
   &__container {
     display: grid;
 
@@ -18,9 +19,12 @@
     background-color: $color-white;
   }
 
+  &__foto {
+    transition: 0.4s;
+  }
+
   &__foto:hover {
     transform: scale(1.1);
-transition: 0.4s;
   }
 
   &__link {

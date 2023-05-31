@@ -19,8 +19,11 @@
 
   gap: 20px;
 
+  &__foto {
+    transition: 0.4s;
+  }
+
   &__foto:hover {
     transform: scale(1.15);
-    transition: 0.4s;
   }
 }

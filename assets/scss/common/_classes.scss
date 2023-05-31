@@ -1,4 +1,5 @@
 @use "../presets" as *;
+
 .visually-hidden {
   position: absolute;
 
@@ -38,19 +39,20 @@
 
   line-height: 16px;
 
+
   &--first {
     cursor: pointer;
+    transition: 0.5s;
   }
 
   &--first:hover {
-    background-color: $color-pink;
     color: $color-white;
-    transition: 0.5s;
-    
+    background-color: $color-pink;
   }
-  
+
 
   &--second {
+    transition: 0.5s;
     letter-spacing: 0.05em;
 
     color: $color-white;
@@ -59,15 +61,14 @@
   }
 
   &--second:hover {
-    background-color: pink;
     color: $color-black;
-    transition: 0.5s;
-    font-weight: $font-weight-500;
-
-
+    background-color: pink;
   }
+
   &--third {
     min-height: 35px;
+
+    transition: 0.5s;
 
     color: $color-white;
     border: 2px solid $color-white;
@@ -76,33 +77,26 @@
   }
 
   &--third:hover {
-    background-color: pink;
     color: $color-black;
-    transition: 0.5s;
-    font-weight: $font-weight-500;
-
-
+    background-color: pink;
   }
 
   &--primary {
     width: 130px;
     min-height: 35px;
 
+    transition: 0.4s;
     letter-spacing: 0.05em;
 
     color: $color-white;
-    border: none;
-    border-radius: 30px;
     background: $color-pink;
   }
 
   &--primary:hover {
-    background-color: $color-white;
-    border: 2px solid $color-pink;
     color: $color-black;
-    transition: 0.4s;
-    font-weight: $font-weight-500;
-      }
+    border: 2px solid $color-pink;
+    background-color: $color-white;
+  }
 }
 
 .box-item {
@@ -111,8 +105,9 @@
   &__wrap {
     display: flex;
     flex-wrap: nowrap;
-;
+
     gap: 30px;
+    ;
   }
 
   &__title {
@@ -122,36 +117,36 @@
     font-weight: $font-weight-700;
     line-height: 28px;
   }
-
-  
 }
 
 .item {
   display: flex;
   align-items: center;
+  flex-basis: 0;
   flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
   justify-content: space-between;
+
   min-height: 363px;
   padding: 25px 30px;
 
   background-color: $color-white;
 
-  flex-basis: 0;
-flex-shrink: 1;
-flex-grow: 1;
-
   &__foto {
     margin-bottom: 14px;
+
+    transition: 0.4s;
   }
 
   &__foto:hover {
     transform: scale(1.1);
-    transition: 0.4s;
   }
 
   &__title {
     margin-bottom: auto;
 
+    transition: 0.4s;
     text-align: center;
 
     color: $color-black;
@@ -160,9 +155,8 @@ flex-grow: 1;
   }
 
   &__title:hover {
-    font-weight: $font-weight-700;
-    transition: 0.3s;
-      }
+    color: $color-pink;
+  }
 
   &__price {
     padding-top: 12px;

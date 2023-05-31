@@ -31,13 +31,15 @@
     height: 35px;
     padding-left: 25px;
 
+    transition: box-shadow 0.4s ease;
+
     border: none;
     border-radius: 30px;
     outline: none;
   }
 
   &__email:hover {
-  outline: 2px solid darkgray;
+    box-shadow: 0 0 0 2px darkgray;
   }
 
   &__email::placeholder {
